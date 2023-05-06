@@ -27,7 +27,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     gap: 10.25rem;
-    margin: 10px;
+
 }
 
 .form-1 {
@@ -264,20 +264,32 @@ h1 span {
         justify-content: center;
         align-items: center;
         gap: 2.25rem;
-        min-width: 320px;
+
     }
 
     #fullName,
     #email {
         border-style: none;
         border-bottom: var(--maincolor) 3px solid;
-        padding: 10px;
         background-color: var(--secondcolor);
-        max-width: 150px;
+        width: 270px;
+
 
     }
 
     .header {
-        margin-bottom: 0px;
+        margin-bottom: 0;
+        margin-right: 25px;
+    }
+
+    .button {
+        min-width: 270px;
+    }
+
+
+    .h1 {
+        min-width: 300px;
+        font-size: 1.5rem;
+
     }
 }
