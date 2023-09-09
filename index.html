@@ -25,14 +25,14 @@
                     <h1 class="h1">תנו לנו להזמין אתכם <span>לצ'ייסר</span></h1>
                     <p>לקבלת קופון לצייסר חינם יש למלא את הפרטים</p>
                 </div>
-                <form action="mailto:ediyadid@gmail.com" method="post">
+                <form id="formInterface">
                     <div class="tiny-form">
                         <label for="fullName" class="bold">שם מלא</label>
-                        <input type="text" id="fullName" name="fullName" placeholder="שם מלא" required>
+                        <input type="text" id="fullName" name="fullName" placeholder="שם מלא">
                     </div>
                     <div class="tiny-form">
                         <label for="email" class="bold">דוא"ל</label>
-                        <input type="email" id="email" name="email" placeholder="דואר אלקטרוני" required>
+                        <input type="text" id="email" name="email" placeholder="דואר אלקטרוני">
                     </div>
                     <div class="tiny-form">
                         <button class="button" type="submit">שליחה</button>
@@ -43,6 +43,8 @@
         </div>
     </main>
 
+
+    <script src="script.js"></script>
 </body>
 
 </html>
