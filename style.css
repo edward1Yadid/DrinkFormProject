@@ -122,20 +122,17 @@ h1 span {
 
 
 
-@media screen and (min-width:1120px) and (max-width:1300px) {
-
+@media screen and (min-width:1120px) and (max-width:1450px) {
     .container {
-        display: flex;
-        justify-content: center;
-        flex-direction: coelumn;
-        gap: 3;
-
-
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: .3125rem;
     }
 
     .img-1 {
         width: 100%;
         object-fit: cover;
+        height: 50%;
     }
 
 
